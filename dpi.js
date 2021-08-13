@@ -4,10 +4,10 @@ $.getJSON(
         console.log(data);
 
         var currentprice = "$"+data.market_data.current_price.usd;
-        var pricechange = data.market_data.price_change_percentage_24h+"%";
-        var marketcap = "$"+data.market_data.market_cap.usd;
-        var volume = data.market_data.total_volume.usd;
-        var currentsupply = data.market_data.circulating_supply.usd;
+        var pricechange = data.market_data.price_change_percentage_24h.toFixed(2)+"%";
+        var marketcap = "$"+ Math.fround(data.market_data.market_cap.usd/1000000).toFixed(2)+"M";
+        var volume = Math.fround(data.market_data.total_volume.usd/1000000).toFixed(2)+"M";
+        var currentsupply = Math.floor(data.market_data.circulating_supply).toLocaleString('en');
 
 
 
