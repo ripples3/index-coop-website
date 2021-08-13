@@ -3,7 +3,7 @@ $.getJSON(
     function(data) {
         console.log(data);
 
-        var currentprice = "$"+data.market_data.current_price.usd;
+        var currentpricenow = "$"+data.market_data.current_price.usd;
         var pricechange = data.market_data.price_change_percentage_24h.toFixed(2)+"%";
         var marketcap = "$"+ Math.fround(data.market_data.market_cap.usd/1000000).toFixed(2)+"M";
         var volume = Math.fround(data.market_data.total_volume.usd/1000000).toFixed(2)+"M";
@@ -11,7 +11,7 @@ $.getJSON(
 
 
 
-        $(".currentprice").append(currentprice);
+        $(".currentpricenow").append(currentpricenow);
         $(".pricechange").append(pricechange);
         $(".marketcap").append(marketcap);
         $(".volume").append(volume);
