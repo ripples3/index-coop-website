@@ -19,6 +19,8 @@
   <link href="images/webclip.png" rel="apple-touch-icon">
 </head>
 <body>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="dpe_api/index.js"></script>
   <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
     <div class="maincontainer navbar w-container">
       <a href="#" class="brand w-nav-brand"><img src="images/IndexCoop-Logo.svg" loading="lazy" width="136" alt="" class="image-4"></a>
@@ -50,11 +52,13 @@
         <div class="current_change">
           <div class="currentprice">
             <div class="stat_title">CURRENT PRICE</div>
-            <div class="text-block-7">$1016.71</div>
+            <div class="text-block-7"><p class="currentpricenow"></p>
+            </div>
           </div>
           <div class="change">
             <div class="stat_title">CHANGE</div>
-            <div class="text-block-7 change">+4.31%</div>
+            <div class="text-block-7 change"><p class="pricechange"></p>      
+            </div>
           </div>
         </div>
         <div class="div-block-26 hero bottom-buttons">
@@ -69,15 +73,20 @@
       <div class="w-layout-grid grid-17">
         <div>
           <div class="stat_title">Market Cap</div>
-          <div class="text-block-9">$111.38M</div>
+          <div class="text-block-9"><p class="marketcap"></p> 
+          </div>
         </div>
         <div>
           <div class="stat_title">Volume</div>
-          <div class="text-block-9">$5.39M</div>
+          <div class="text-block-9"><p class="volume"></p> 
+
+          </div>
         </div>
         <div>
           <div class="stat_title">Current Supply</div>
-          <div class="text-block-9">301,290</div>
+          <div class="text-block-9"><p class="currentsupply"></p> 
+
+          </div>
         </div>
         <div>
           <div class="stat_title">Streaming Fee</div>
