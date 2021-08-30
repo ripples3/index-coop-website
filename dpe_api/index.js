@@ -18,7 +18,7 @@ fetch('https://api.coingecko.com/api/v3/coins/index-cooperative')
 
   if (pricechange >= 0) {
     $(".pricechange").append((pricechange).toFixed(2)+"%");
-    $(".pricechange").css({'color':'green'});
+    $(".pricechange").css({'color':'#0eaa74'});
  }
  else {
     $(".pricechange").append((pricechange).toFixed(2)+"%");
