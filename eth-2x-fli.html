@@ -1,14 +1,14 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
 <!--  Last Published: Fri Oct 22 2021 17:14:44 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="6108c4981c303c31067f2039" data-wf-site="60d237b6ea65be721ff4bbfa">
+<html data-wf-page="6108c4981c303c48607f2034" data-wf-site="60d237b6ea65be721ff4bbfa">
 <head>
   <meta charset="utf-8">
-  <title>Index Coop | Metaverse Index</title>
-  <meta content="Learn about the Metaverse Index from Index Coop, the market-leading index token for gaining exposure to the Metaverse. $MVI is simple to buy and hold." name="description">
-  <meta content="Index Coop | Metaverse Index" property="og:title">
-  <meta content="Learn about the Metaverse Index from Index Coop, the market-leading index token for gaining exposure to the Metaverse. $MVI is simple to buy and hold." property="og:description">
-  <meta content="Index Coop | Metaverse Index" property="twitter:title">
-  <meta content="Learn about the Metaverse Index from Index Coop, the market-leading index token for gaining exposure to the Metaverse. $MVI is simple to buy and hold." property="twitter:description">
+  <title>Index Coop | ETH2xFLI</title>
+  <meta content="Learn about the ETH 2x Flexible Leverage Index (ETH2xFLI), the easy-to-use, market leading token for gaining 2x exposure to the price of Ether." name="description">
+  <meta content="Index Coop | ETH2xFLI" property="og:title">
+  <meta content="Learn about the ETH 2x Flexible Leverage Index (ETH2xFLI), the easy-to-use, market leading token for gaining 2x exposure to the price of Ether." property="og:description">
+  <meta content="Index Coop | ETH2xFLI" property="twitter:title">
+  <meta content="Learn about the ETH 2x Flexible Leverage Index (ETH2xFLI), the easy-to-use, market leading token for gaining 2x exposure to the price of Ether." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -100,8 +100,21 @@ color: #433BCE
 #content.light-mode > .svg_icon path {
   fill: #327EE8;
 }
+#content.dark-mode{
+  background-color: #0F0E0B;
+  color: #ffffff;
+}
+#content.dark-mode .allh1, #content.dark-mode .allh2, #content.dark-mode .allh3{
+  color: #ffffff;
+}
+#content.dark-mode .prodh3, #content.dark-mode .grid_heading, #content.dark-mode .listtextblock, #content.dark-mode .slider_description{
+  color: #ffffff;
+}
+#content.dark-mode a {
+  color: #ffffff;
+}
 #content.dark-mode > .gray_bg{
-  background-color: #1D1B16;
+  background-color: transparent;
 }
 #content.dark-mode a.w--current {
  color: #707AFF;
@@ -140,9 +153,6 @@ color: #433BCE
 }
 #content.dark-mode .mainnavbar{
 	background-color: rgba(0,0,0,.8);
-}
-#content.dark-mode .allparagraph2.black{
-	color: white;
 }
 #content.dark-mode .allparagraph2.quote.black {
     color: white;
@@ -193,9 +203,9 @@ color: #433BCE
             </div>
             <nav class="dropdown-list-2 w-dropdown-list">
               <a href="dpi.html" class="dropdown-text w-dropdown-link">DPI</a>
-              <a href="mvi.html" aria-current="page" class="dropdown-text w-dropdown-link w--current">MVI</a>
+              <a href="mvi.html" class="dropdown-text w-dropdown-link">MVI</a>
               <a href="bankless-bed-index.html" class="dropdown-text w-dropdown-link">BED</a>
-              <a href="eth-2x-fli.html" class="dropdown-text w-dropdown-link">FLI-ETH</a>
+              <a href="eth-2x-fli.html" aria-current="page" class="dropdown-text w-dropdown-link w--current">FLI-ETH</a>
               <a href="btc-2x-fli.html" class="dropdown-text w-dropdown-link">FLI-BTC</a>
             </nav>
           </div>
@@ -302,20 +312,22 @@ input:checked+.toggleTheme:before {
     <div class="hero-section wf-section">
       <div class="maincontainer product w-container">
         <div class="head_cont product">
-          <div class="prod_icon w-embed"><svg viewbox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 50C0 22.3733 22.3733 0 50 0C77.6267 0 100 22.3733 100 50C100 77.6267 77.6267 100 50 100C22.3733 100 0 77.6267 0 50Z" fill="url(#paint0_linear)"></path>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M19.0933 47.6801C19.0933 47.6801 19.0933 55.4401 49.9999 55.4401C80.9066 55.4401 80.9066 47.6801 80.9066 47.6801C80.9066 55.4401 73.5999 71.7601 69.0933 74.5601C64.5866 77.3334 66.2933 65.2534 61.7866 65.5467C57.2799 65.8401 54.4799 83.6001 49.9733 83.6001C45.4666 83.6001 42.6666 65.2801 38.1599 65.5734C33.6533 65.8667 35.3866 77.3868 30.8533 74.5868C26.3999 71.7868 19.0933 55.4668 19.0933 47.6801Z" fill="white"></path>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3999 47.6799C26.3999 45.1732 36.9599 43.1199 49.9999 43.1199C63.0399 43.1199 73.5999 45.1732 73.5999 47.6799C73.5999 50.1866 61.7866 52.2399 49.9999 52.2399C38.1866 52.2399 26.3999 50.2132 26.3999 47.6799Z" fill="white"></path>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M61.8135 25.8934C61.8135 22.6134 64.4535 19.9734 67.7335 19.9734C71.0135 19.9734 73.6535 22.6134 73.6535 25.8934C73.6535 29.1734 71.0135 31.8134 67.7335 31.8134C64.4535 31.8134 61.8135 29.1468 61.8135 25.8934Z" fill="white"></path>
+          <div class="prod_icon w-embed"><svg viewbox="0 0 106 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M53.0353 1.5C24.5433 1.5 1.5 24.5344 1.5 53.0176C1.5 81.5016 24.544 104.5 53 104.5C81.4567 104.5 104.5 81.4656 104.5 53.0176C104.5 24.571 81.4228 1.5 53.0353 1.5ZM70.1292 10.0397C92.4956 18.8636 104.199 43.7903 97.0681 66.4546L11.9033 32.7689C16.7299 22.6898 24.9867 14.8241 35.3411 10.4487C46.5164 5.73444 58.8127 5.59691 70.1292 10.0397Z" fill="url(#paint0_linear)" stroke="white" stroke-width="3"></path>
+              <path d="M9.88086 33.582C14.7503 22.4708 23.5718 13.7936 34.7574 9.06696C46.2958 4.19924 58.9987 4.05814 70.6783 8.64368C94.2845 17.9559 106.388 44.6225 97.9896 68.432L9.88086 33.582Z" fill="white"></path>
+              <path d="M42.5562 29.4198L52.7538 35.4516L62.9514 29.4198L52.7538 12.5239L42.5562 29.4198Z" fill="#460782"></path>
+              <path d="M42.5562 32.7357L52.7538 47.0919L62.9514 32.7357L52.7538 38.7674L42.5562 32.7357Z" fill="#460782"></path>
+              <path d="M30.8061 63.4233C30.0298 63.0706 29.3594 62.1182 29.3594 61.2716V56.6155L43.7913 62.7884L43.8618 80.284C43.8618 84.3051 43.8618 84.5168 46.7906 85.7866L55.4709 89.455V95.6984L41.039 89.5256C39.4511 88.8201 38.1103 86.8801 38.1103 85.1517V78.9083L35.1815 77.6737C33.5937 76.9683 32.2528 75.0282 32.2528 73.2998V70.1605L38.0044 72.5944V66.351L30.8061 63.4233Z" fill="white"></path>
+              <path d="M55.4004 83.2822L52.4717 82.0476C49.543 80.672 49.543 80.8836 49.543 77.6737V56.6155L52.4717 57.8501C54.0596 58.5556 55.4004 60.4956 55.4004 62.224V83.2822Z" fill="white"></path>
+              <path d="M67.2563 47.2329V44.5168L72.9374 38.9084C73.6431 38.2734 74.1018 37.6738 74.3841 37.1094C74.7369 36.5451 74.8781 35.9454 74.8781 35.3105C74.8781 34.6756 74.6664 34.217 74.3135 33.8643C73.9607 33.5115 73.2549 33.2999 72.3728 33.2999H67.5739V30.6544C68.3502 30.5133 69.0912 30.3722 70.0086 30.3017C70.9261 30.1606 71.8788 30.09 73.0079 30.09C74.3135 30.09 75.3721 30.3017 76.1484 30.6544C76.9247 31.0071 77.4539 31.5715 77.7362 32.2417C78.0891 32.9472 78.2302 33.7585 78.2302 34.7461C78.2302 35.9101 78.0185 36.8978 77.5245 37.7443C77.0305 38.5909 76.4307 39.4727 75.5132 40.3899L71.7729 44.1994H78.8654V47.2682H67.2563V47.2329ZM80.5238 47.2329L84.6875 40.919L80.5238 34.9578H83.9112L86.6283 38.8378L89.063 34.9578H92.521L88.3925 41.3422L92.5563 47.3034H89.0983L86.3813 43.4234L83.9465 47.3034H80.5591V47.2329H80.5238Z" fill="#460782"></path>
               <defs>
-                <lineargradient id="paint0_linear" x1="5.96046e-06" y1="100" x2="100" y2="-5.96046e-06" gradientunits="userSpaceOnUse">
-                  <stop offset="0.1408" stop-color="#FF59DC"></stop>
-                  <stop offset="0.8592" stop-color="#35FFE7"></stop>
-                  <stop offset="1" stop-color="#FFFD00" stop-opacity="0.8967"></stop>
+                <lineargradient id="paint0_linear" x1="53" y1="30.4773" x2="53" y2="102.974" gradientunits="userSpaceOnUse">
+                  <stop stop-color="#3A056C"></stop>
+                  <stop offset="1" stop-color="#4D078D"></stop>
                 </lineargradient>
               </defs>
             </svg></div>
-          <h1 class="allh1 product">Metaverse Index</h1>
+          <h1 class="allh1 product">Ethereum 2x Flexible Leverage Index</h1>
         </div>
         <div class="current_change_cont">
           <div class="btn_buysell mobile">
@@ -325,42 +337,46 @@ input:checked+.toggleTheme:before {
           <div class="curr_change_cont">
             <div class="currentprice">
               <div class="stat_title">CURRENT PRICE</div>
-              <div class="stat_value currentpricenow"> </div>
+              <p class="currentpricenow stat_value"></p>
             </div>
             <div class="change">
               <div class="stat_title">CHANGE</div>
-              <div class="stat_value pricechange"> </div>
+              <p class="pricechange stat_value"></p>
             </div>
           </div>
           <div class="btn_buysell">
-            <a href="#" class="buy-button-2 buttons buy-button w-button">Buy</a>
-            <a href="#" class="sell-button-2 buttons sell-button w-button">Sell</a>
+            <a href="#" class="buy-button buttons w-button">Buy</a>
+            <a href="#" class="sell-button buttons w-button">Sell</a>
           </div>
         </div>
-        <p class="allparagraph product">The <span class="text-span-5">Metaverse Index (MVI)</span> is designed to capture the trend of entertainment, sports and business shifting to take place in virtual environments.</p>
+        <p class="allparagraph2 product">The <span class="text-span">Ethereum Flexible Leverage Index</span> lets you leverage a collateralized debt position in a safe and efficient way, by abstracting its management into a simple index. It enabled market participants to take on leverage while minimizing the transaction costs and risks associated with maintaining collateralized debt.</p>
       </div>
     </div>
     <div class="stats-section wf-section">
-      <div class="maincontainer product w-container">
+      <div class="maincontainer product ethfli w-container">
         <div class="head_cont prod_stat">
           <h2 class="allh2 product">Stats</h2>
         </div>
         <div class="w-layout-grid stat_grid">
           <div class="stat_cont">
             <div class="stat_title">Market Cap</div>
-            <div class="stat_value2 marketcap"> </div>
+            <p class="marketcap stat_value2"></p>
           </div>
           <div class="stat_cont">
             <div class="stat_title">Volume</div>
-            <div class="stat_value2 volume"> </div>
+            <p class="volume stat_value2"></p>
           </div>
           <div class="stat_cont">
             <div class="stat_title">Current Supply</div>
-            <div class="stat_value2 currentsupply"> </div>
+            <p class="currentsupply stat_value2"></p>
           </div>
           <div class="stat_cont">
             <div class="stat_title">Streaming Fee</div>
-            <div class="stat_value2">0.95%</div>
+            <div class="stat_value2">1.95%</div>
+          </div>
+          <div id="w-node-b28d43b1-40b7-54f7-b56d-19432dc78d7f-607f2034" class="stat_cont">
+            <div class="stat_title">minting / Redeeming Fee</div>
+            <div class="stat_value2">0.1%</div>
           </div>
         </div>
       </div>
@@ -370,84 +386,42 @@ input:checked+.toggleTheme:before {
         <div class="head_cont prod_stat">
           <h2 class="allh2 product">Underlying Tokens</h2>
         </div>
-        <div class="w-layout-grid allproducts">
-          <div class="token_cont">
-            <div class="token_icon w-embed"><svg viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <rect width="64" height="64" fill="url(#pattern0)"></rect>
-                <defs>
-                  <pattern id="pattern0" patterncontentunits="objectBoundingBox" width="1" height="1">
-                    <use xlink:href="#image0" transform="scale(0.02)"></use>
-                  </pattern>
-                  <image id="image0" width="50" height="50" xlink:href="data:image/png;base64,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">
-                </image></defs>
-              </svg></div>
-            <div class="token_name">Audius</div>
+      </div>
+      <div class="w-container">
+        <div class="w-layout-grid allproducts2">
+          <div id="w-node-_1857bb2e-0ff3-2e2f-0a08-54eec5b000b5-607f2034" class="token_cont"><img src="images/compound-ether-ceth-logo-1.svg" loading="lazy" width="64" alt="" class="token_icon">
+            <div class="token_name">cETH</div>
           </div>
-          <div class="token_cont"><img src="images/axie_infinity_logo-1.svg" loading="lazy" alt="" class="token_icon">
-            <div class="token_name">Axie Infinity</div>
+          <div id="w-node-_35e0ce63-d26c-ffdf-cd8e-613216b966c2-607f2034" class="token_cont"><img src="images/usd-coin-usdc-logo-1.svg" loading="lazy" width="64" alt="" class="token_icon">
+            <div class="token_name">USDC</div>
           </div>
-          <div class="token_cont"><img src="images/decentral-games-1.svg" loading="lazy" width="64" alt="" class="token_icon">
-            <div class="token_name">Decentral Games</div>
-          </div>
-          <div class="token_cont"><img src="images/decentraland-mana-logo-2.svg" loading="lazy" width="64" alt="" class="token_icon">
-            <div class="token_name">Decentral Land</div>
-          </div>
-          <div class="token_cont">
-            <div class="token_icon w-embed"><svg viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div id="w-node-ea686c67-1c6f-8494-730a-bf062dddf0d4-607f2034" class="token_cont debt">
+            <div class="manage-text">Debt is created and managed by</div>
+            <div class="html-embed-22 w-embed"><svg viewbox="0 0 188 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
-                  <path d="M32.0226 64.0452C49.7082 64.0452 64.0452 49.7082 64.0452 32.0226C64.0452 14.337 49.7082 0 32.0226 0C14.337 0 0 14.337 0 32.0226C0 49.7082 14.337 64.0452 32.0226 64.0452Z" fill="#7866D5"></path>
-                  <path d="M44.9852 16.4404C46.0692 16.5759 47.1984 16.6663 48.2823 16.8469C50.4051 17.2534 51.1278 18.3374 50.7665 20.5054C50.6761 21.3183 50.0438 21.9507 49.2308 22.0862C48.734 22.1765 48.192 22.2217 47.6952 22.1765C40.6493 22.1765 33.6486 22.2217 26.6027 22.2217C25.5639 22.2217 24.4799 22.312 23.4411 22.4927C19.9633 23.0346 18.6084 24.48 18.3374 28.0029C18.2019 29.6289 18.2019 29.6289 19.873 29.6289H47.8758C48.1468 29.6289 48.4178 29.6289 48.6888 29.6289C49.1405 29.6289 49.547 29.7644 49.9535 29.9902C51.2181 30.8032 50.902 32.113 50.8568 33.2873C50.8116 34.2358 50.2245 34.7778 49.2308 34.9584C48.8243 35.0488 48.4178 35.0488 47.9662 35.0488C38.391 35.0488 28.8159 35.0488 19.2407 35.0488C18.2019 35.0488 18.2019 35.0488 18.2922 36.0876C18.3374 37.0361 18.4277 37.9845 18.6535 38.933C19.1052 40.6493 20.144 41.7333 21.9055 42.2301C23.8024 42.7721 25.7897 42.8625 27.7319 42.9076C34.5519 42.9076 41.4171 42.9076 48.2823 42.9076C49.1405 42.9076 49.9535 42.998 50.4955 43.8109C51.3536 45.1659 50.902 46.9274 49.547 47.7855C49.3663 47.921 49.1856 48.0114 48.9598 48.0565C47.4693 48.5534 45.9337 48.6437 44.3529 48.6888C37.8942 48.8243 31.4806 48.8243 25.0671 48.6888C23.0798 48.6437 21.0925 48.4179 19.1504 48.0114C14.5886 47.0629 12.2852 44.7143 11.5173 40.1073C11.3367 39.0685 11.2463 37.9845 11.1108 36.9006V28.4997C11.2012 27.6867 11.2915 26.8286 11.3818 26.0156C11.969 20.8215 14.3176 18.2471 19.4214 17.0728C21.228 16.6663 23.125 16.5759 24.9316 16.3953L44.9852 16.4404Z" fill="white"></path>
-                  <path d="M34.6874 49.5922C31.4355 49.5922 28.2287 49.547 25.0219 49.5018C22.9895 49.4567 20.957 49.2308 18.9697 48.7792C14.0466 47.7404 11.5173 45.1207 10.7043 40.2428C10.5688 39.475 10.4785 38.7072 10.4333 37.9845C10.3882 37.6684 10.343 37.3522 10.2979 36.9909V36.9006V28.4094L10.3882 27.5964C10.4333 27.0092 10.5237 26.4672 10.5688 25.9253C11.2012 20.3699 13.8208 17.5244 19.2859 16.3049C20.7312 15.9888 22.1313 15.8533 23.5314 15.7178C23.9831 15.6726 24.4348 15.6274 24.8864 15.5823H24.9768H45.0756H45.1207C45.4369 15.6274 45.7982 15.6726 46.1144 15.6726C46.8822 15.7629 47.65 15.8081 48.463 15.9888C51.0374 16.4856 52.0311 17.9309 51.5794 20.5505C51.4439 21.6797 50.5406 22.6281 49.3211 22.8088C48.7792 22.8991 48.2372 22.9443 47.65 22.9443C40.6493 22.9895 33.6034 23.0346 26.6027 23.0346C25.6091 23.0346 24.5703 23.125 23.5766 23.3056C20.4602 23.8025 19.4214 24.9316 19.1504 28.0932C19.1504 28.3642 19.1052 28.6352 19.1052 28.861C19.2859 28.861 19.602 28.861 19.873 28.861H48.6888C49.276 28.861 49.8631 29.0417 50.36 29.3127C51.8956 30.3063 51.7601 31.7968 51.6698 32.8808C51.6698 33.0163 51.6246 33.197 51.6246 33.3325C51.5343 34.5971 50.7665 35.4552 49.3663 35.7262C48.8695 35.8166 48.4178 35.8166 47.9662 35.8166H19.2859C19.2407 35.8166 19.1504 35.8166 19.1052 35.8166C19.1052 35.8617 19.1052 35.9069 19.1052 35.9521V35.9972C19.1504 36.9457 19.2407 37.849 19.4665 38.7524C19.8278 40.1525 20.686 41.0106 22.1313 41.4171C24.0734 41.9591 26.0607 42.0495 27.777 42.0495C33.1066 42.0946 38.5265 42.0946 43.8109 42.0946H48.3275C49.005 42.0946 50.4051 42.0946 51.2181 43.4044C51.7601 44.2626 51.8956 45.2562 51.6698 46.2047C51.4439 47.1532 50.8568 47.9662 49.9986 48.5082C49.7728 48.6437 49.5018 48.7792 49.2308 48.8695C47.5597 49.4115 45.8434 49.5018 44.3981 49.547C41.1913 49.547 37.9394 49.5922 34.6874 49.5922ZM11.9238 36.8554C11.969 37.1715 12.0142 37.4877 12.0142 37.8039C12.1045 38.5265 12.1948 39.2492 12.2851 39.9718C13.0078 44.2174 15.0403 46.295 19.2859 47.1984C21.1828 47.6049 23.125 47.8307 25.0671 47.8759C31.4355 48.0113 37.9393 48.0113 44.3529 47.8759C45.6627 47.8307 47.2435 47.7404 48.6888 47.2887C48.8243 47.2435 48.9598 47.1532 49.0953 47.108C49.547 46.7919 49.9083 46.3402 50.0438 45.7982C50.1793 45.2562 50.089 44.7142 49.7728 44.2174C49.5018 43.8109 49.1405 43.6754 48.2823 43.6754H43.7657C38.5265 43.6754 33.0614 43.6754 27.7319 43.6303C25.9252 43.6303 23.8024 43.5399 21.6796 42.9076C19.6472 42.3656 18.3825 41.0558 17.8857 39.0233C17.6599 38.0297 17.5244 36.9909 17.5244 35.9972V35.9521C17.4792 35.3197 17.4341 34.8681 17.7954 34.4616C18.1567 34.0551 18.6535 34.0551 19.2859 34.0551H48.0113C48.3727 34.0551 48.7792 34.0551 49.1405 33.9648C49.8631 33.8293 50.0438 33.5131 50.089 33.0615C50.089 32.8808 50.1341 32.7453 50.1341 32.5646C50.2245 31.4355 50.2245 30.8935 49.5921 30.487C49.3663 30.3515 49.0501 30.2612 48.7792 30.2612H19.873C18.8794 30.2612 18.2922 30.2612 17.8405 29.8095C17.3889 29.3579 17.4792 28.7255 17.5244 27.7771C17.8405 23.8928 19.4665 22.1313 23.3056 21.5442C24.3896 21.3635 25.4736 21.2732 26.6027 21.228C33.6486 21.228 40.6493 21.1828 47.6952 21.1828C48.192 21.1828 48.6437 21.1828 49.0953 21.0925C49.547 21.0473 49.9083 20.686 49.9535 20.2344C50.2696 18.4277 49.818 17.8406 48.1017 17.4792C47.379 17.3437 46.6564 17.2534 45.9337 17.2082C45.6175 17.1631 45.2562 17.1179 44.9401 17.1179H24.9768C24.5251 17.1631 24.0734 17.2082 23.6218 17.2534C22.2216 17.3889 20.9118 17.4792 19.5569 17.7954C14.8144 18.9697 12.7368 21.2732 12.1948 26.1511C12.1497 26.6931 12.0593 27.2351 12.0142 27.8222L11.9238 28.59V36.8554Z" fill="white"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M184.552 23.8877C184.552 21.4317 183.107 19.5826 180.827 19.5826C178.546 19.5826 177.099 21.4317 177.099 23.8877C177.099 26.3436 178.546 28.1927 180.827 28.1927C183.112 28.1974 184.552 26.3483 184.552 23.8877ZM184.441 17.9345V11.5003C184.441 11.0754 184.725 10.7065 185.135 10.5991L188.544 9.6886V31.4611H184.762V29.6122C183.811 30.9988 182.104 31.8113 179.967 31.8113C175.58 31.8113 173.01 28.2861 173.01 23.8924C173.01 19.4986 175.58 15.9734 179.967 15.9734C182.099 15.9687 183.662 16.8932 184.441 17.9345ZM161.174 16.3142V18.1633C161.868 16.8605 163.426 15.964 165.678 15.964C169.317 15.964 171.251 18.3919 171.251 22.006V31.4611H167.152V22.4729C167.152 20.7079 166.402 19.4939 164.582 19.4939C162.591 19.4939 161.495 20.764 161.495 22.7904V31.4611H157.396V16.3142H161.174ZM147.812 31.8113C143.395 31.8113 140.938 29.9017 140.938 24.9895V16.3142H145.037V25.0457C145.037 27.1561 145.988 28.1366 147.807 28.1366C149.626 28.1366 150.578 27.1514 150.578 25.0457V16.3142H154.677V24.9849C154.686 29.9017 152.228 31.8113 147.812 31.8113ZM127.404 23.8877C127.404 26.6051 129.078 28.1927 131.242 28.1927C133.406 28.1927 135.08 26.6005 135.08 23.8877C135.08 21.1748 133.406 19.5826 131.242 19.5826C129.083 19.5826 127.404 21.1702 127.404 23.8877ZM131.246 31.8113C126.396 31.8113 123.304 28.1974 123.304 23.8924C123.304 19.5874 126.392 15.9734 131.246 15.9734C136.097 15.9734 139.189 19.5874 139.189 23.8924C139.184 28.1974 136.097 31.8113 131.246 31.8113ZM110.81 23.8877C110.81 26.3436 112.256 28.1927 114.537 28.1927C116.817 28.1927 118.263 26.3436 118.263 23.8877C118.263 21.4317 116.817 19.5826 114.537 19.5826C112.256 19.5826 110.81 21.4317 110.81 23.8877ZM110.927 29.8455V36.1443C110.927 36.5692 110.642 36.9381 110.232 37.0454L106.827 37.942V16.3142H110.61V18.1633C111.561 16.7765 113.268 15.964 115.404 15.964C119.792 15.964 122.362 19.4892 122.362 23.8831C122.362 28.2767 119.792 31.8019 115.404 31.8019C113.263 31.8113 111.706 30.8868 110.927 29.8455ZM94.6505 22.8464V31.4611H90.5511V22.4729C90.5511 20.7967 89.9449 19.4939 88.1259 19.4939C86.2186 19.4939 85.1785 20.736 85.1785 22.7624V31.4658H81.0792V16.3142H84.8614V18.1633C85.5562 16.8605 87.0581 15.964 89.2219 15.964C91.2739 15.964 92.7431 16.7718 93.6106 18.1025C94.9396 16.627 96.4694 15.964 98.6333 15.964C102.271 15.964 104.118 18.4808 104.118 22.006V31.4611H100.018V22.4729C100.018 20.7967 99.4122 19.4939 97.5932 19.4939C95.6579 19.4939 94.6505 20.736 94.6505 22.8464ZM67.4006 23.8877C67.4006 26.6051 69.0749 28.1927 71.2387 28.1927C73.4027 28.1927 75.077 26.6005 75.077 23.8877C75.077 21.1748 73.4027 19.5826 71.2387 19.5826C69.0749 19.5826 67.4006 21.1702 67.4006 23.8877ZM71.2387 31.8113C66.3885 31.8113 63.2966 28.1974 63.2966 23.8924C63.2966 19.5874 66.3838 15.9734 71.2387 15.9734C76.0936 15.9734 79.181 19.5874 79.181 23.8924C79.181 28.1974 76.089 31.8113 71.2387 31.8113ZM42.0254 21.1702C42.0254 14.7547 46.442 10.501 52.3321 10.501C57.4436 10.501 61.487 13.536 62.2658 18.5368H57.7607C57.1544 15.964 55.0745 14.5166 52.3321 14.5166C48.5779 14.5166 46.47 17.1173 46.47 21.1655C46.47 25.2137 48.5779 27.8144 52.3321 27.8144C55.0745 27.8144 57.1544 26.367 57.7607 23.7942H62.2658C61.487 28.795 57.4436 31.8299 52.3321 31.8299C46.442 31.8393 42.0254 27.5903 42.0254 21.1702Z" fill="#848484"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M1.68359 32.7332C0.638925 32.0934 0 30.9543 0 29.7309V22.8998C0 22.6383 0.0699554 22.3863 0.200539 22.1622C0.60628 21.4617 1.50637 21.2237 2.20592 21.6345L17.6055 30.6227C18.5056 31.1503 19.0606 32.1123 19.0606 33.1581V40.2366C19.0606 40.5588 18.9718 40.8809 18.804 41.1564C18.2957 41.9876 17.2137 42.249 16.3835 41.7401L1.68359 32.7332ZM24.6383 19.7621C25.5383 20.2897 26.0933 21.2517 26.0933 22.2975V36.6599C26.0933 37.0849 25.8648 37.4771 25.4964 37.6826L22.1245 39.583C22.0825 39.6063 22.0359 39.625 21.9893 39.639V31.664C21.9893 30.632 21.4483 29.6749 20.5622 29.1426L7.03751 21.0415V12.0393C7.03751 11.7778 7.10747 11.5257 7.23805 11.3016C7.64378 10.6012 8.54389 10.363 9.24343 10.7739L24.6383 19.7621ZM31.3774 9.15373C32.2821 9.67667 32.8371 10.6479 32.8371 11.6938V32.6726C32.8371 33.1021 32.5992 33.4989 32.2215 33.7044L29.0267 35.432V20.8267C29.0267 19.7949 28.4859 18.8423 27.6045 18.31L13.7812 10.0082V1.46822C13.7812 1.20674 13.8512 0.954605 13.9771 0.730482C14.3828 0.0301025 15.2829 -0.208026 15.9825 0.198194L31.3774 9.15373Z" fill="#848484"></path>
                 </g>
                 <defs>
                   <clippath id="clip0">
-                    <rect width="64" height="64" fill="white"></rect>
+                    <rect width="188" height="42" fill="white"></rect>
                   </clippath>
                 </defs>
               </svg></div>
-            <div class="token_name">Enjin</div>
-          </div>
-          <div class="token_cont"><img src="images/meme-1.svg" loading="lazy" width="64" alt="" class="token_icon">
-            <div class="token_name">Meme</div>
-          </div>
-          <div class="token_cont"><img src="images/muse-1.svg" loading="lazy" width="64" alt="" class="token_icon">
-            <div class="token_name">Muse</div>
-          </div>
-          <div class="token_cont"><img src="images/NFTX_Real-1.svg" loading="lazy" width="64" alt="" class="token_icon">
-            <div class="token_name">NFTX</div>
-          </div>
-          <div class="token_cont"><img src="images/Rari-1.svg" loading="lazy" width="64" alt="" class="token_icon">
-            <div class="token_name">Rari</div>
-          </div>
-          <div class="token_cont"><img src="images/redfox-labs-rfox-logo-2.svg" loading="lazy" width="63" alt="" class="token_icon">
-            <div class="token_name">RedFOX Labs</div>
-          </div>
-          <div class="token_cont"><img src="images/revv-1.svg" loading="lazy" width="64" alt="" class="token_icon">
-            <div class="token_name">REVV</div>
-          </div>
-          <div class="token_cont"><img src="images/sandbox-sand-logo-1.svg" loading="lazy" width="64" alt="" class="token_icon">
-            <div class="token_name">Sandbox</div>
-          </div>
-          <div class="token_cont"><img src="images/Terra-Virtua-Kolect-1.svg" loading="lazy" width="64" alt="" class="token_icon">
-            <div class="token_name">Terra VirtuaKolect</div>
-          </div>
-          <div class="token_cont"><img src="images/waxe_logo-1.svg" loading="lazy" width="64" alt="" class="token_icon">
-            <div class="token_name">WAXE</div>
-          </div>
-          <div class="token_cont"><img src="images/whale-1.svg" loading="lazy" width="64" alt="" class="token_icon">
-            <div class="token_name">Whale</div>
           </div>
         </div>
       </div>
     </div>
     <div class="about-section wf-section">
       <div class="maincontainer product w-container">
-        <h2 class="allh2 product">About</h2>
+        <div class="head_cont prod_stat">
+          <h2 class="allh2 product">About</h2>
+        </div>
         <div class="accordion_maincontainer trigger">
-          <div data-w-id="8d24a785-bcc7-52d8-d5f6-de23c9831664" style="display:block" class="accordion_container">
-            <div class="accordion_trigger">
+          <div data-w-id="f59130df-34f0-f9fc-b59b-edadf3510527" style="display:block" class="accordion_container">
+            <div data-w-id="2ea5f7f9-a09c-2442-73bc-1a203a16ebc7" class="accordion_trigger">
               <div class="accordion_title">
-                <h3 class="accordion_header">Constituent Weighting</h3>
+                <h3 class="accordion_header">Objective</h3>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="accordion_chevron">
                   <div class="chevron w-embed"><svg viewbox="0 0 37 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1.00909 0.999859L18.3066 17.9704L35.6042 0.99986" stroke="#433BCE" stroke-width="2"></path>
@@ -455,127 +429,210 @@ input:checked+.toggleTheme:before {
                 </div>
               </div>
               <div style="height:0px;opacity:0;display:none" class="accordion_content">
-                <p class="allparagraph2">Selection of the $MVI tokens is based on the following basic criteria:</p>
-                <div class="w-layout-grid prodcont_grid7">
-                  <div id="w-node-be3e58b3-d146-e8e8-046c-62160f6fd719-067f2039" class="grid_icon">
+                <p class="allparagraph2">The Ethereum Flexible Leverage Index (ETH2X-FLI) makes leverage effortless. The end user does not have to worry about:<br></p>
+                <div class="w-layout-grid prodcont_grid4">
+                  <div id="w-node-b06d51b1-c69a-ab7e-9112-665615f824e6-607f2034" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
-                  <div class="allparagraph2">The token must be available on the Ethereum blockchain.</div>
-                  <div id="w-node-dc5aed98-dcaa-5d7d-70dc-516f5c58eb8f-067f2039" class="grid_icon">
+                  <div class="allparagraph2">Monitoring their leveraged loan 24/7, having to always be ready to act.</div>
+                  <div id="w-node-_889d2b5c-93e3-9321-ecb4-43e57d43dd8b-607f2034" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
-                  <div class="allparagraph2">Protocol must be in one of the following token categories on Coingecko: Non Fungible Tokens, Entertainment, Virtual Reality, Augmented Reality and Music. More categories will be added in the future as the market matures.</div>
-                  <div class="grid_icon">
+                  <div class="allparagraph2">High fees, transactions not being included fast enough or the relative UIs being unresponsive during times of high volatility.</div>
+                  <div id="w-node-ec4bb6f5-41f0-0396-9cac-202a80f34916-607f2034" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
-                  <div class="allparagraph2">‍Total market cap must be over $50m.</div>
-                  <div id="w-node-f29127ee-0bfc-8160-7dd5-c48801a35e78-067f2039" class="grid_icon">
+                  <div class="allparagraph2">Users don&#x27;t have to manage their liquidation ratio since this is automatically managed by FLI, which drastically reduces liquidations, even during black swan events.</div>
+                  <div id="w-node-_8db032cb-410d-32d0-486f-65cdb4c3b9d6-607f2034" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
-                  <div class="allparagraph2">Protocol must have at least 3 months history of operation and its token must have at least 3 months of price and liquidity history.</div>
-                  <div id="w-node-_63f01e42-06ed-5892-f3ff-850f68c9b9fa-067f2039" class="grid_icon">
+                  <div class="allparagraph2">The token must be a bearer instrument. None of the following will be included in the index:Wrapped tokens. Tokenized derivatives. Synthetic assets. Tokens that are tied to physical assets. Tokens that represent claims on other tokens.</div>
+                </div>
+                <p class="allparagraph2">ETH2X-FLI has several key advantages over Legacy Leveraged Tokens:<br></p>
+                <div class="w-layout-grid prodcont_grid4">
+                  <div id="w-node-_3e1838a8-99cf-a48d-74d7-e641115d5fd3-607f2034" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
-                  <div class="allparagraph2">Token must have reasonable and consistent DEX liquidity on Ethereum.</div>
-                  <div id="w-node-c7ca97fa-dc35-1131-f27c-7dc92f057692-067f2039" class="grid_icon">
+                  <div class="allparagraph2">Zero slippage via composable entry and exit.</div>
+                  <div id="w-node-_3e1838a8-99cf-a48d-74d7-e641115d5fd7-607f2034" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
-                  <div class="allparagraph2">An independent security audit should have been performed on the protocol and results reviewed by the product methodologist. In the case that no audit has been performed, the methodologist applies subjective judgement of the protocol based on assessment of the criteria above and communications with the team.</div>
-                  <div id="w-node-_750cc7be-5d66-1dc0-9887-319cbbecb453-067f2039" class="grid_icon">
+                  <div class="allparagraph2">Unique Index algorithm reduces rebalancing needs by an order of magnitude.</div>
+                  <div id="w-node-_3e1838a8-99cf-a48d-74d7-e641115d5fdb-607f2034" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
-                  <div class="allparagraph2">In the event of a security issue the methodologist will work with the project team to understand the issue and any effects to $MVI holdings. The team is expected to provide users of the protocol with a reliable solution and adequate documentation to ensure transparency about any incidents.</div>
-                  <div id="w-node-_1ace823c-5c49-dbb3-d33b-a4809a79dcd5-067f2039" class="grid_icon">
+                  <div class="allparagraph2">Emergency deleveraging possible during Black Swan events for additional fund safety.</div>
+                  <div id="w-node-_3e1838a8-99cf-a48d-74d7-e641115d5fdf-607f2034" class="grid_icon">
                     <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
                         <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
                       </svg></div>
                   </div>
-                  <div class="allparagraph2">Tokens will not be staked at the launch of the index. This is subject to change as liquidity increases and it becomes possible to safely generate yield through staking.<br></div>
+                  <div class="allparagraph2">The token must be a bearer instrument. None of the following will be included in the index:Wrapped tokens. Tokenized derivatives. Synthetic assets. Tokens that are tied to physical assets. Tokens that represent claims on other tokens.</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="accordion_maincontainer trigger">
-          <div data-w-id="34888e6d-d913-dc59-e24d-def0e37001ae" style="display:block" class="accordion_container">
+          <div data-w-id="871584a7-1b1e-ef73-4438-a66fbd985492" style="display:block" class="accordion_container">
             <div class="accordion_trigger">
               <div class="accordion_title">
-                <h3 class="accordion_header">Index Calculation</h3>
+                <h3 class="accordion_header">Initial Parameters</h3>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="accordion_chevron">
                   <div class="chevron w-embed"><svg viewbox="0 0 37 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1.00909 0.999859L18.3066 17.9704L35.6042 0.99986" stroke="#433BCE" stroke-width="2"></path>
                     </svg></div>
                 </div>
               </div>
-            </div>
-            <div style="height:0px;opacity:0;display:none" class="accordion_content">
-              <p class="allparagraph2">The $MVI uses a combination of root market cap and liquidity weighting to arrive at the final index weights. We believe that liquidity is an important consideration in this space and should be considered when determining portfolio allocation.</p>
-              <div class="bg-grey">
-                <blockquote class="allparagraph2 black"><br>‍<br>TW = 75%*RMCW + 25%*LW</blockquote>
-                <div class="allparagraph2 quote black">‍<br><br>where,<br>‍<br><br>TW – token weight in the $MVI<br>‍<br><br>RMCW – square root of market cap weighted allocation<br>‍<br><br>LW – liquidity weighted allocation<br>‍</div>
+              <div style="height:0px;opacity:0;display:none" class="accordion_content">
+                <div class="w-layout-grid prodcont_grid6">
+                  <div id="w-node-_4477281b-237f-ce9e-f5b5-d04162627d83-607f2034" class="grid_icon">
+                    <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
+                        <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
+                      </svg></div>
+                  </div>
+                  <div class="allparagraph2">Underlying Asset: ETH</div>
+                  <div id="w-node-c9afce6f-0ae7-fa94-25fa-c88ca57e71fd-607f2034" class="grid_icon">
+                    <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
+                        <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
+                      </svg></div>
+                  </div>
+                  <div class="allparagraph2">Target Leverage Ratio: 2</div>
+                  <div id="w-node-_24b5b6bb-fa96-4ef3-dad2-7f10a8e87f63-607f2034" class="grid_icon">
+                    <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
+                        <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
+                      </svg></div>
+                  </div>
+                  <div class="allparagraph2">DeFi Lending Protocol: Compound</div>
+                  <div id="w-node-_13bcbf6b-da2d-7433-7a20-91ea5f258cc5-607f2034" class="grid_icon">
+                    <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
+                        <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
+                      </svg></div>
+                  </div>
+                  <div class="allparagraph2">Maximum Leverage Ratio: 2.3</div>
+                  <div id="w-node-_1e78a3af-3145-101a-f9b2-4ff2f05c0fda-607f2034" class="grid_icon">
+                    <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
+                        <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
+                      </svg></div>
+                  </div>
+                  <div class="allparagraph2">Minimum Leverage Ratio: 1.7</div>
+                  <div id="w-node-_759aa321-65ee-fc9f-7c53-92526b4e1d53-607f2034" class="grid_icon">
+                    <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
+                        <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
+                      </svg></div>
+                  </div>
+                  <div class="allparagraph2">Recentering Speed: 5%</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="accordion_maincontainer trigger bottom">
-          <div data-w-id="364f03ef-0a73-e0e5-ec95-5d27f6df0f9b" style="display:block" class="accordion_container">
-            <div class="accordion_trigger">
+          <div data-w-id="6c28d703-fc3a-d5e2-3683-f17d7b340329" style="display:block" class="accordion_container">
+            <div data-w-id="12e3fc56-d060-89a3-fbb1-f2045bc2c100" class="accordion_trigger">
               <div class="accordion_title">
-                <h3 class="accordion_header">Index Maintenance</h3>
+                <h3 class="accordion_header">Definitions</h3>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="accordion_chevron">
                   <div class="chevron w-embed"><svg viewbox="0 0 37 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1.00909 0.999859L18.3066 17.9704L35.6042 0.99986" stroke="#433BCE" stroke-width="2"></path>
                     </svg></div>
                 </div>
               </div>
-            </div>
-            <div style="height:0px;opacity:0;display:none" class="accordion_content">
-              <p class="allparagraph2">The index is maintained monthly in two phases:</p>
-              <div class="w-layout-grid prodcont_grid2">
-                <div id="w-node-db63c6f0-ad2e-1d1c-31fb-e30ca11b7865-067f2039" class="grid_icon">
-                  <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
-                      <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
-                    </svg></div>
+              <div style="height:0px;opacity:0;display:none" class="accordion_content">
+                <div class="w-layout-grid prodcont_grid6">
+                  <div id="w-node-ca4c1e6e-60aa-c003-1e19-af275f7ec782-607f2034" class="grid_icon">
+                    <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
+                        <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
+                      </svg></div>
+                  </div>
+                  <div class="allparagraph2">Borrow Rate — the cost to borrow the asset at the DeFi Lending Protocol over the most recent epoch.</div>
+                  <div id="w-node-_2913ea24-4c00-bccd-8529-cd66d5011bf1-607f2034" class="grid_icon">
+                    <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
+                        <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
+                      </svg></div>
+                  </div>
+                  <div class="allparagraph2">Epoch Length — the time between rebalances.</div>
+                  <div id="w-node-ed244db4-c1d7-8328-126f-e553b1f4e02c-607f2034" class="grid_icon">
+                    <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
+                        <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
+                      </svg></div>
+                  </div>
+                  <div class="allparagraph2">Target Leverage Ratio (TLR) — the long term target for the value of the assets held by the index divided by the value of the debt held by the index.</div>
+                  <div id="w-node-_08046e75-ecb7-593b-3f7d-3e4afd35a968-607f2034" class="grid_icon">
+                    <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
+                        <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
+                      </svg></div>
+                  </div>
+                  <div class="allparagraph2">Current Leverage Ratio (CLR) — the value of the asset currently held by the index divided by the current value of the debt held by the index.</div>
+                  <div id="w-node-_9e14323b-a43c-57a4-91ab-bd17d2e1822a-607f2034" class="grid_icon">
+                    <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
+                        <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
+                      </svg></div>
+                  </div>
+                  <div class="allparagraph2">Maximum Leverage Ratio (MAXLR) — the highest leverage ratio the index will ever have after a rebalance.</div>
+                  <div id="w-node-_46873c8b-ad90-1a7a-769c-958905bcf5aa-607f2034" class="grid_icon">
+                    <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
+                        <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
+                      </svg></div>
+                  </div>
+                  <div class="allparagraph2">Re-centering Speed (RS) — the rate at which the Current Leverage Ratio is adjusted each period to return to the Target Leverage Ratio, when the index is not being adjusted back to the Maximum Leverage Ratio or the Minimum Leverage Ratio.</div>
                 </div>
-                <div class="allparagraph2"><span class="text-span">Determination Phase:<br>‍<br></span>Protocol must be in one of the following token categories on Coingecko: Non Fungible Tokens, Entertainment, Virtual Reality, Augmented Reality and Music. More categories will be added in the future as the market matures.</div>
-                <div id="w-node-afd89bfe-f4fc-d05d-f7c5-10e4f9d6c932-067f2039" class="grid_icon">
-                  <div class="check_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="19" cy="19" r="18" stroke="#09AA74" stroke-width="2"></circle>
-                      <path d="M11 19.25L16.5 24.75L28 13.5" stroke="#09AA74" stroke-width="2"></path>
-                    </svg></div>
+                <div class="acc_subhead">
+                  <h4 class="acc_subheadtitle">Index Price:</h4>
                 </div>
-                <div class="allparagraph2"><span class="text-span">Rebalancing phase:<br>‍</span><br>Following publication of the determination phase outcome, the index composition will change to the new weights during the first week of the following month.</div>
+                <div class="bg-grey">
+                  <div class="allparagraph2 quote black">FLIt = FLIt-1 * (1 + ((Pricet/Pricet-1–1) * CLRt-1 — (BorrowRatet * (CLRt-1 -1)/CLRt-1)))</div>
+                </div>
+                <div class="acc_subhead">
+                  <h3 class="acc_subheadtitle">Calculation of the new Current Lever Ratio for the period:</h3>
+                </div>
+                <div class="bg-grey">
+                  <div>
+                    <div class="allparagraph2 quote black">FLIt = FLIt-1 * (1 + ((Pricet/Pricet-1–1) * CLRt-1 — (BorrowRatet * (CLRt-1 -1)/CLRt-1)))</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="longline"></div>
         <div class="btn_buysell">
-          <a href="#" class="buy-button-2 buttons w-button">Buy</a>
-          <a href="#" class="sell-button-2 buttons sell-button w-button">Sell</a>
+          <a href="#" class="buy-button buttons w-button">Buy</a>
+          <a href="#" class="sell-button buttons w-button">Sell</a>
         </div>
         <div class="btn_buysell mobile">
           <a href="#" class="buy-button buttons w-button">Buy</a>
@@ -607,8 +664,8 @@ input:checked+.toggleTheme:before {
               <div>
                 <div class="footitem foottitle">Products</div>
                 <a href="dpi.html" class="footitem footlink">DeFi Pulse Index</a>
-                <a href="mvi.html" aria-current="page" class="footitem footlink w--current">Metaverse Index</a>
-                <a href="eth-2x-fli.html" class="footitem footlink">ETH2x-FLI</a>
+                <a href="mvi.html" class="footitem footlink">Metaverse Index</a>
+                <a href="eth-2x-fli.html" aria-current="page" class="footitem footlink w--current">ETH2x-FLI</a>
                 <a href="btc-2x-fli.html" class="footitem footlink">BTC2x-FLI</a>
               </div>
             </div>
@@ -697,7 +754,7 @@ input[type="checkbox"]:checked+.toggleTheme:before {
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
 //DPE
-fetch('https://api.coingecko.com/api/v3/coins/metaverse-index')
+fetch('https://api.coingecko.com/api/v3/coins/eth-2x-flexible-leverage-index')
 .then(response => response.json())
 .then(data => {
   console.log(data) // Prints result from `response.json()` in getRequest
